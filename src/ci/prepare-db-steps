@@ -1,0 +1,4 @@
+sudo -u postgres psql
+create database rewards;
+create user oksana_admin with encrypted password '1337_pass_@';
+grant all privileges on database rewards to oksana_admin;
